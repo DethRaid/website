@@ -3,6 +3,7 @@ $indexClass = "inactive";
 $dragonClass = "inactive";
 $engineClass = "inactive";
 $warfareClass = "inactive";
+$aboutClass = "inactive";
 
 if( $page == "index" ) {
 	$indexClass = "active";
@@ -12,6 +13,8 @@ if( $page == "index" ) {
 	$engineClass = "active";
 } else if( $page == "Warfare2525Main" ) {
 	$warfareClass = "active";
+} else if($page == "about") {
+  $aboutClass = "active";
 }
 ?>
 
@@ -33,6 +36,7 @@ if( $page == "index" ) {
         <li class="<?=$dragonClass?>"><a href="/dragon">DRAGON Shaders <span class="sr-only">(current)</span></a></li>
         <li class="<?=$engineClass?>"><a href="/JotunEngine.php">Jotun Engine</a></li>
         <li class="<?=$warfareClass?>"><a href="/warfare">Warfare 2525</a></li>
+        <li class="<?=$aboutClass?>"><a href="/about.php">About</a></li>
       </ul>
     </div>
   </div>
