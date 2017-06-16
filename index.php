@@ -28,7 +28,7 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+                <img class="first-slide" src="img/raytraced_light_full.png" alt="First slide">
                 <div class="container">
                     <div class="carousel-caption">
                     <h1>DRAGON Shaderpack</h1>
