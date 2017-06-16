@@ -38,7 +38,7 @@
                 </div>
                 </div>
                 <div class="item">
-                <img class="second-slide" src="ing/nova_code.png" alt="Second slide">
+                <img class="second-slide" src="img/nova_code.png" alt="Second slide">
                 <div class="container">
                     <div class="carousel-caption">
                     <h1>Nova Renderer</h1>
