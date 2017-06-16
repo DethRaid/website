@@ -32,7 +32,7 @@
                 <div class="container">
                     <div class="carousel-caption">
                     <h1 class="background-solid-black">DRAGON Shaderpack</h1>
-                    <p class="background-solid-black">The first shaderpack to implement physically-based rendering. DRAGON continues to push the envelope of what's possible with Minecraft: Java Edition shaders</p>
+                    <p class="background-solid-black">The first shaderpack to implement physically-based rendering. DRAGON continues to push the envelope of what's possible with Minecraft shaders</p>
                     <p><a class="btn btn-lg btn-primary" href="dragon/index.php" role="button">Learn more</a></p>
                     </div>
                 </div>
