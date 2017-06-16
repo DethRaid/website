@@ -1,0 +1,28 @@
+0010
+
+MainBase
+H=200 S=0 E=50 I=350 P=0 M=60
+HydroponicFarm
+H=100 S=0 E=40 I=100 P=0 M=35
+Hangar
+H=120 S=0 E=40 I=150 P=0 M=45
+
+RustReaper
+H=15 S=0 E=25 I=20 P=1 M=1 R=0 D=0 V=15 T=15
+Skimmer
+H=25 S=0 E=35 I=25 P=1 M=2 R=33 D=7 V=25 T=25
+GaussCannon
+H=75 S=0 E=40 I=55 P=2 M=3 R=30 D=15 V=22 T=20
+MobileSAM
+H=50 S=0 E=35 I=50 P=1 M=2 R=33 D=10 V=20 T=25
+Transport
+H=175 S=0 E=30 I=150 P=4 M=5 R=20 D=5 V=25 T=10
+
+EmpressFirst
+H=25 S=5 E=30 I=25 P=1 M=2 R=30 D=10 V=15 T=15
+Speeder
+H=35 S=15 E=40 I=45 P=1 M=3 R=30 D=15 V=25 T=20
+Flamer
+H=45 S=10 E=40 I=55 P=1 M=3 R=20 D=20 V=22 T=15
+Bomber
+H=75 S=10 E=30 I=85 P=2 M=5 R=1 D=30 V=18 T=25

@@ -1,0 +1,82 @@
+<html>
+
+  <head>
+    <title>A Game With God</title>
+    <meta http-equiv="content-type" context="text.html; charset=ISO-8859-1">
+
+    <script type="text/javascript" src="gl-matrix-min.js"></script>
+    <script type-"text.javascript" src="webgl-utils.js"></script>
+
+    <script id="diffuse-vs" type="x-shader/x-vertex">
+        attribute vec3 position;
+        attribute vec3 normal;
+        attribute vec2 texcoord;
+
+        uniform mat4 MVP;
+        uniform mat3 normalMatrix;
+
+        varying vec3 vNormal;
+        varying vec2 vTexcoord;
+
+        void main() {
+            gl_Position = MVP * position;
+            vNormal = normalMatrix * normal;
+            uTexcoord = texcoord;
+        }
+    </script>
+
+    <script id="diffuse-fs" type="x-shader/x-fragment">
+        precision mediump float;
+
+        uniform sampler2D diffuse;
+
+        varying vec3 vNormal;
+        varying vec2 vTexcoord;
+
+        void main() {
+            gl_FragData[0] = texture2D( diffuse, vTexcoord );
+            gl_FragData[1] = vec4( normal, 1 );
+        }
+    </script>
+
+    <script id="terrain-vs" type="x-shader/x-vertex">
+        #define MAX_HEIGHT  50
+        attribute vec3 position;
+        attribute vec2 texcoord;
+
+        uniform mat4 MVP;
+        uniform mat3 normalMatrix;
+
+        uniform sampler2D heightmap;
+        uniform sampler2D normalmap;
+
+        uniform float scale;
+
+        varying vec3 vNormal;
+        varying vec2 vTexcoord;
+
+        void main() {
+            float texHeight = texture2D( heightmap, texcoord ).r;
+            vec4 pos = vec4( position.x, texHeight * scale, position.z, 1 );
+            pos.y *= pos.x / 5.0;
+            gl_Position = MVP * pos;
+
+            vec3 texNormal = texture2D( normalmap, texcoord ).xyz;
+            vNormal = normalize( texNormal * scale + vec3( 0, 1, 0 ) * (1 - scale) );
+
+            vTexcoord = texcoord;
+        }
+    </script>
+
+    <script id="lighting-vs" type="x-shader/x-vertex" src="lighting.vert"></script>
+    <script id="lighting-fs" type-"x-shader/x-fragment" src="lighting.frag"></script>
+
+    <script type="text/javascript" src="agwg.js"></script>
+
+</head>
+
+<body onload="webGLStart();">
+    <canvas id="screen" style="border: none;" width="500" height="500"></canvas>
+    Use WASD to move, mouse to look around.
+</body>
+</html>
