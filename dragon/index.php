@@ -33,7 +33,7 @@
                 </div>
                 <div class="col-md-6">
                     <p class="body-text">DethRaid's Awesome Graphics On Nitro (DRAGON) is a collection of shaders written in the OpenGL Shading Language (GLSL) that bring a physically-based rendering (PBR) pipeline to Minecraft. Because PBR uses different data than traditional shading pipelines DRAGON is accompanied by the Pulchra PBR resourcepack, created  by DeltaDotModded and Opptronica. All screenshots on this page use that resourcepack</p>
-                    <p class="body-text">DRAGON was completely written by yours truly, David Dubois. I've been interested in graphics programming since I first learned how to code, and with DRAGON I have a way to show off what I know and create something beautiful for others to enjoy. Here'ssome of the new features in DRAGON version 2 (Click on the images for larger images):</p>
+                    <p class="body-text">DRAGON was completely written by yours truly, David Dubois. I've been interested in graphics programming since I first learned how to code, and with DRAGON I have a way to show off what I know and create something beautiful for others to enjoy. Here's some of the new features in DRAGON version 2 (Click on the images for larger images):</p>
                 </div>
                 <div class="col-md-3"> </div>
             </div>
@@ -48,7 +48,7 @@
                 <div class="col-md-3">
                 </div>
                 <div class="col-md-6">
-                    <p class="body-text">DRAGON version 1 was my first time working with PBR, so I got a few things wrong, such as using the wrong specular color for non-metals and incorrectly handling roughness. With DRAGON version 2, I've fixed these issues, creating a much morephysically-accurate shader.</p>
+                    <p class="body-text">DRAGON version 1 was my first time working with PBR, so I got a few things wrong, such as using the wrong specular color for non-metals and incorrectly handling roughness. With DRAGON version 2, I've fixed these issues, creating a much more physically-accurate shader.</p>
                 </div>
                 <div class="col-md-3">
                     <div class="panel panel-default">
@@ -84,8 +84,8 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <p class="body-text">In DRAGON version 1, I used a very large light size in an attempt to mimic the large sun in Minecraft. While technically accurate, this produced shadows that were very blurry and didn't look very good. For version 2, I've decreased the light size,producing much more pleasing shadows.</p>
-                    <p>I've made a number of other improvements to the shadows as well. I've changed the shadow filtering algorithm to make the shadows appear less noisy. I've also optimized my shadow code, significantly increasing performance. Finally, I've made transparent blocks cast coloredshadows, as seen in the image to the right.</p>
+                    <p class="body-text">In DRAGON version 1, I used a very large light size in an attempt to mimic the large sun in Minecraft. While technically accurate, this produced shadows that were very blurry and didn't look very good. For version 2, I've decreased the light size, producing much more pleasing shadows.</p>
+                    <p>I've made a number of other improvements to the shadows as well. I've changed the shadow filtering algorithm to make the shadows appear less noisy. I've also optimized my shadow code, significantly increasing performance. Finally, I've made transparent blocks cast colored shadows, as seen in the image to the right.</p>
                 </div>
                 <div class="col-md-3">
                     <div class="panel panel-default">
@@ -121,8 +121,8 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <p class="body-text">In DRAGON version 1, I used a simple Blinn-Phond shading model. For DRAGON version 2, I've transitioned to an image-based lighting model. I use the skybox to generate direct and ambient lighting values, which means that the ambient lighting is much morenatural than if I simply used a constant color for ambient light. Additionally, getting direct light from the skybox means that the light color naturally becomes redder in the evenings and in the early morning without me having to evaluate complex formulas and blend betweena set dawn and noon light color. Finally, image-based lighting means I can adhere to the software engineering principle of "Don't Repeat Yourself": I render the sky once, then use it in multiple stages of my shader. It's poetic, almost.</p>
-                    <p class="body-text">Additionally, I've begun raytracing diffuse light from blocks. I send out multiple rays per fragment in random directions, and any that hit an emissive block like lava or glowstone increase the lighting on the fragment they came from. This allows thelighting from blocks to respond to normalmaps and allows for emissive blocks to cast shadows. The algorithm is still very much a work in progress, but you can see some preliminary results on the right.
+                    <p class="body-text">In DRAGON version 1, I used a simple Blinn-Phond shading model. For DRAGON version 2, I've transitioned to an image-based lighting model. I use the skybox to generate direct and ambient lighting values, which means that the ambient lighting is much more natural than if I simply used a constant color for ambient light. Additionally, getting direct light from the skybox means that the light color naturally becomes redder in the evenings and in the early morning without me having to evaluate complex formulas and blend between a set dawn and noon light color. Finally, image-based lighting means I can adhere to the software engineering principle of "Don't Repeat Yourself": I render the sky once, then use it in multiple stages of my shader. It's poetic, almost.</p>
+                    <p class="body-text">Additionally, I've begun raytracing diffuse light from blocks. I send out multiple rays per fragment in random directions, and any that hit an emissive block like lava or glowstone increase the lighting on the fragment they came from. This allows the lighting from blocks to respond to normalmaps and allows for emissive blocks to cast shadows. The algorithm is still very much a work in progress, but you can see some preliminary results on the right.
                 </div>
                 <div class="col-md-3">
                     <div class="panel panel-default">
@@ -148,8 +148,8 @@
                 <div class="col-md-3">
                 </div>
                 <div class="col-md-6">
-                    <p class="body-text">DRAGON version 1 simply used Minecraft's sky. While that worked without any trouble, i knew I could do better. For DRAGON version 2, I render a realtime skybox by simulating rays of light travelling through the atmosphere. This means that the skyboxproduces deep blues during the day, vibrant reds and greens at sunset and sunrise, and dark blues at night. These three skyboxes are shown on the left.</p>
-                    <p class="body-text">Rendering the sky onto a skybox, as opposed to simply rendering the sky directly onto the sky, lets me use the sky for direct lighting, ambient lighting, and reflections, as well as the sky. This saves rendering time when compared to other shaderpacks,which tend to render the sky once for the actual sky and once more for reflections.</p>
+                    <p class="body-text">DRAGON version 1 simply used Minecraft's sky. While that worked without any trouble, i knew I could do better. For DRAGON version 2, I render a realtime skybox by simulating rays of light travelling through the atmosphere. This means that the skybox produces deep blues during the day, vibrant reds and greens at sunset and sunrise, and dark blues at night. These three skyboxes are shown on the left.</p>
+                    <p class="body-text">Rendering the sky onto a skybox, as opposed to simply rendering the sky directly onto the sky, lets me use the sky for direct lighting, ambient lighting, and reflections, as well as the sky. This saves rendering time when compared to other shaderpacks, which tend to render the sky once for the actual sky and once more for reflections.</p>
                 </div>
                 <div class="col-md-3">
                     <div class="panel panel-default">
