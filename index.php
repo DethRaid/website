@@ -11,6 +11,7 @@
         <meta name="author" content="David Dubois">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/carousel.css" rel="stylesheet">
+        <link href="css/jotunstudios.css" rel="stylesheet">
     </head>
 
     <body>
@@ -31,8 +32,8 @@
                 <img class="first-slide" src="img/raytraced_light_full.png" alt="First slide">
                 <div class="container">
                     <div class="carousel-caption">
-                    <h1>DRAGON Shaderpack</h1>
-                    <p>The first shaderpack to implement physically-based rendering. DRAGON continues to push the envelope of what's possible with Minecraft: Java Edition shaders</p>
+                    <h1 class="background-solid-black">DRAGON Shaderpack</h1>
+                    <p class="background-solid-black">The first shaderpack to implement physically-based rendering. DRAGON continues to push the envelope of what's possible with Minecraft: Java Edition shaders</p>
                     <p><a class="btn btn-lg btn-primary" href="dragon/index.php" role="button">Learn more</a></p>
                     </div>
                 </div>
@@ -41,8 +42,8 @@
                 <img class="second-slide" src="img/nova_code.png" alt="Second slide">
                 <div class="container">
                     <div class="carousel-caption">
-                    <h1>Nova Renderer</h1>
-                    <p>Thing Minecraft: Java Edition's renderer is too slow? The Nova Renderer replaces the vanilla renderer with OpenGL 4.5, C++14, and a devotion to usability.</p>
+                    <h1 class="background-solid-black">Nova Renderer</h1>
+                    <p class="background-solid-black">Think Minecraft: Java Edition's renderer is too slow? The Nova Renderer replaces the vanilla renderer with OpenGL 4.5, C++14, and a devotion to usability.</p>
                     <p><a class="btn btn-lg btn-primary" href="https://github.com/NovaMods/nova-renderer" role="button">Github Repo</a></p>
                     </div>
                 </div>
@@ -51,8 +52,8 @@
                 <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
                 <div class="container">
                     <div class="carousel-caption">
-                    <h1>Automatic Machine Translation</h1>
-                    <p>Imagine a program that can take two large bodies of text in two unrelated languages and figure out how to translate between them. We're making that program.</p>
+                    <h1 class="background-solid-black">Automatic Machine Translation</h1>
+                    <p class="background-solid-black">Imagine a program that can take two large bodies of text in two unrelated languages and figure out how to translate between them. We're making that program.</p>
                     <p><a class="btn btn-lg btn-primary" href="https://github.com/DethRaid/voynich-translation" role="button">Github Repo</a></p>
                     </div>
                 </div>
