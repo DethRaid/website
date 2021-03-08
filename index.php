@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php $page = "index";?>
 
-<html>
+<html lang="en-US">
     <head>
         <meta charset="utf-8">
         <title>Jotun Studios Main Site</title>
@@ -28,7 +28,7 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                <img class="first-slide" src="img/raytraced_light_full.png" alt="First slide">
+                <img class="first-slide" src="img/raytraced_light_full.png" alt="An image of the game Minecraft: Java Edition. A stone block floats above an underground pool of lava. The light from the lava illuminates the walls and ceiling of the cave, except for the shadow cast by the floating block. This is not possible in vanilla Minecraft. It was accomplished with the DRAGON shaderpack's screen-space raytraced light">
                 <div class="container">
                     <div class="carousel-caption">
                     <h1 class="background-solid-black">DRAGON Shaderpack</h1>
@@ -38,7 +38,7 @@
                 </div>
                 </div>
                 <div class="item">
-                <img class="second-slide" src="img/nova_code.png" alt="Second slide">
+                <img class="second-slide" src="img/nova_code.png" alt="An image of the source code for the Nova Renderer. Out of date, but it's an image of source code so it's fine">
                 <div class="container">
                     <div class="carousel-caption">
                     <h1 class="background-solid-black">Nova Renderer</h1>
@@ -48,7 +48,7 @@
                 </div>
                 </div>
                 <div class="item">
-                <img class="third-slide" src=img/amt.png alt="Third slide">
+                <img class="third-slide" src=img/amt.png alt="An image of the source code of an automatic machine translation system I once worked on">
                 <div class="container">
                     <div class="carousel-caption">
                     <h1 class="background-solid-black">Automatic Machine Translation</h1>

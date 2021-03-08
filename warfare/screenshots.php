@@ -2,7 +2,7 @@
 
 <?php $page="Warfare2525Main";?>
 
-<html>
+<html lang="en-US">
   <head>
     <meta charset="utf-8">
     <title>Jotun Studios Main Site</title>

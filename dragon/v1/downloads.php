@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <?php $page="dragon"?>
 <?php $drPage = "download"?>
-<html>
+
+<html lang="en-US">
     <head>
         <meta charset="utf-8">
         <title>Download DRAGON</title>

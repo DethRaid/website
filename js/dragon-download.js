@@ -5,11 +5,11 @@ function init() {
 }
 
 images = new Array();
-images[0] = '<img src="../../img/dragon_v1_low.png" class="img-responsive" id="1">';
-images[1] = '<img src="../../img/dragon_v1_med.png" class="img-responsive" id="2">';
-images[2] = '<img src="../../img/dragon_v1_hig.png" class="img-responsive" id="3">';
-images[3] = '<img src="../../img/dragon_v1_ult.png" class="img-responsive" id="4">';
-images[4] = '<img src="../../img/dragon_v1_ext.png" class="img-responsive" id="5">';
+images[0] = '<img src="../../img/dragon_v1_low.png" class="img-responsive" id="1" alt="A screenshot of DRAGON on the Low preset. A stone platform floating above a forest. The platform has on it a stone pillar, and a wall made of columns of gold, iron, lapis lazlui, quartz, and obsidian. Shadows are blocky and have no penumbra, and there\'s no reflections in the world">';
+images[1] = '<img src="../../img/dragon_v1_med.png" class="img-responsive" id="2" alt="A screenshot of DRAGON on the Medium preset. A stone platform floating above a forest. The platform has on it a stone pillar, and a wall made of columns of gold, iron, lapis lazlui, quartz, and obsidian. Shadows are all but nonexistant. Reflections are _visible_, but on smooth surfaces the artifacts are painfully obvious">';
+images[2] = '<img src="../../img/dragon_v1_hig.png" class="img-responsive" id="3" alt="A screenshot of DRAGON on the High preset. A stone platform floating above a forest. The platform has on it a stone pillar, and a wall made of columns of gold, iron, lapis lazlui, quartz, and obsidian. Shadows are smooth - too smooth. The penumbra never gets small enough to by physically plausible. Reflections are visible, but have a few artifacts">';
+images[3] = '<img src="../../img/dragon_v1_ult.png" class="img-responsive" id="4" alt="A screenshot of DRAGON on the Ultra preset. A stone platform floating above a forest. The platform has on it a stone pillar, and a wall made of columns of gold, iron, lapis lazlui, quartz, and obsidian. Shadows are nice and smooth, reflections are reasonably sharp">';
+images[4] = '<img src="../../img/dragon_v1_ext.png" class="img-responsive" id="5" alt="A screenshot of DRAGON on the Ultra preset. A stone platform floating above a forest. The platform has on it a stone pillar, and a wall made of columns of gold, iron, lapis lazlui, quartz, and obsidian. Shadows are the smoothest, reflections are the sharpest. It\'s hard to see, though, because I took these screenshots too small">';
 images[5] = '';
 
 

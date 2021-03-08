@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <?php $page = "dragon"?>
 <?php $drPage = "index"?>
-<html>
+
+<html lang="en-US">
     <head>
         <meta charset="utf-8">
         <title>Jotun Studios Main Site</title>
@@ -49,7 +50,7 @@
                     <div class="panel panel-default">
                         <div class="panel-body">
                             <a href="../../img/PCSS-DRAGON.png">
-                                <img src="../../img/PCSS-DRAGON.png" class="img-responsive">
+                                <img src="../../img/PCSS-DRAGON.png" class="img-responsive" alt="A screenshot of the DRAGON shaderpack rendering a Minecraft: Java Edition world. A platform of stone floats above a forest. Three stone pillars of different heights stand on the left. The shadows they cast have a small penumbra when close to the caster, but the penumbra widens as the shadow gets farther from the caster">
                             </a>
                         </div>
                         <div class="panel-footer">
@@ -79,7 +80,7 @@
                     <div class="panel panel-default">
                         <div class="panel-body">
                             <a href="../../img/ShinyMetal.png">
-                                <img src="../../img/ShinyMetal.png" class="img-responsive">
+                                <img src="../../img/ShinyMetal.png" class="img-responsive" alt="A screenshot of the DRAGON shaderpack rendering Miencraft: Java Edition. The player is hovering above a platform of gold a lapiz lazuli. The reflection of the sun is visible in both materials. The gold reflects the sunlight with a golden color, but the lapis reflects the sunlight with its original color">
                             </a>
                         </div>
                         <div class="panel-footer">
@@ -101,7 +102,7 @@
                     <div class="panel panel-default">
                         <div class="panel-body">
                             <a href="../../img/diff-mats.png">
-                                <img src="../../img/diff-mats.png" class="img-responsive">
+                                <img src="../../img/diff-mats.png" class="img-responsive" alt="An image of Minecraft: Java Edition rendered with the DRAGON shaderpack. A floor of gold, quartz, and obsidian reflects walls of stone, obsidian, and gold. The different properties of each of those materisla visibly influence the reflections on those materials in a physically-plausible way">
                             </a>
                         </div>
                         <div class="panel-footer">
@@ -131,10 +132,10 @@
                     <div class="panel panel-default">
                         <div class="panel-body">
                             <a href="../../img/fresnel0.png">
-                                <img src="../../img/fresnel0.png" class="img-responsive">
+                                <img src="../../img/fresnel0.png" class="img-responsive" alt="An image of the DRAGON shaderpack rendering Minecraft: Java Edition. A platform of stone floats above a forest. A dirt pillar stands on the stone. The camera is positioned above the platform, looking down. From this angle, the stone floor does not reflect the dirt pillar">
                             </a>
                             <a href="../../img/fresnel1.png">
-                                <img src="../../img/fresnel1.png" class="img-responsive">
+                                <img src="../../img/fresnel1.png" class="img-responsive" alt="An image of the DRAGON shaderpack rendering Minecraft: Java Edition. A platform of stone floats above a forest. A dirt pillar stands on the stone. The camera is positioned above the platform, looking down. From this angle, the stone floor clearly reflects the dirt pillar">
                             </a>
                         </div>
                         <div class="panel-footer">
@@ -156,7 +157,7 @@
                     <div class="panel panel-default">
                         <div class="panel-body">
                             <a href="../../img/water.png">
-                                <img src="../../img/water.png" class="img-responsive">
+                                <img src="../../img/water.png" class="img-responsive" alt="An screenshot of Minecraft: Java Edition as rendered by the DRAGON shaderpack. The camera is positioned above a body of water. Directly in front of the camera, a sand penensula reaches out from a wooded island. The woods, island, and penensula are all visible reflected in the water">
                             </a>
                         </div>
                         <div class="panel-footer">
@@ -182,7 +183,7 @@
                 <div class="col-md-6">
                     <div class="panel panel-default">
                         <div class="panel-body">
-                            <img src="../../img/ores.png" class="img-responsive">
+                            <img src="../../img/ores.png" class="img-responsive" alt="A platform made of different materials hovers above a forest. Ores of various types, iron blocks, cobblestone, and even pumpkins make up the platform. The suns's reflection on the platform covers many different blocks, of many different materials. Each one reflects the swunlight according to its material properties">
                         </div>
                         <div class="panel-footer">
                             This image shows many of the various ores found in Minecraft. One can see how the metallic gold and iron both show a specular color that is the color of the material itself, while the non-metallic diamond at the bottom shows a pure white specular color.
@@ -196,7 +197,7 @@
                 <div class="col-md-6">
                     <div class="panel panel-default">
                         <div class="panel-body">
-                            <img src="../../img/trees.png" class="img-responsive">
+                            <img src="../../img/trees.png" class="img-responsive" alt="An image of Minecraft: Java Edition as seen through the DRAGON shaderpack. The camera hovers above a lush forest. A steep hill rises to the right, while the ocean stretches out to the left">
                         </div>
                         <div class="panel-footer">
                             This image shows a forest in Minecraft, rendered with DRAGON. There are no terribly interesting physical phonomena in this image, I just think it looks nice.

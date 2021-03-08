@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php $page = "dragon";?>
 
-<html>
+<html lang="en-US">
     <head>
         <meta charset="utf-8">
         <title>DRAGON v2</title>
@@ -23,7 +23,7 @@
                     <div class="panel panel-default">
                         <div class="panel-body">
                             <a href="../img/diff-mats_full.png">
-                                <img class="img-responsive" src="../img/diff-mats_small.png" />
+                                <img class="img-responsive" src="../img/diff-mats_small.png" alt="A screenshot of modded Minecraft: Java Edition. Blocks of various materials - gold, obsidian, quartz, and stone - form a rectangular room with no ceiling. The back wall of the room is visibly reflected on the floor"/>
                             </a>
                         </div>
                         <div class="panel-footer">
@@ -54,7 +54,7 @@
                     <div class="panel panel-default">
                         <div class="panel-body">
                             <a href="../img/PBR-improved-full.png">
-                                <img class="img-responsive" src="../img/PBR-improved-small.png" />
+                                <img class="img-responsive" src="../img/PBR-improved-small.png" alt="A screenshot of modded Minecraft: Java Edition. On the left is a wall of gold blocks, on the right a wall of quartz. Sunlight strems through to illuminate the dirt floor. The Fresnel lighting effect - an object reflects more light when that light hits it at a grazing angle - is illuminated on the quartz"/>
                             </a>
                         </div>
                         <div class="panel-footer">
@@ -75,7 +75,7 @@
                     <div class="panel panel-default">
                         <div class="panel-body">
                             <a href="../img/shadows-improved-full.png">
-                                <img class="img-responsive" src="../img/shadows-improved-small.png" />
+                                <img class="img-responsive" src="../img/shadows-improved-small.png" alt="An arial view of a Minecraft world. An offscreen stone pillar casts a shadow onto the stone floor below. The shadow's penumbra is very small near the pillar, but widens as the shadow gets farther fromt he pillar"/>
                             </a>
                         </div>
                         <div class="panel-footer">
@@ -91,7 +91,7 @@
                     <div class="panel panel-default">
                         <div class="panel-body">
                             <a href="../img/shadows-colored-full.png">
-                                <img class="img-responsive" src="../img/shadows-colored-small.png" />
+                                <img class="img-responsive" src="../img/shadows-colored-small.png" alt="A screenshot of modded Minecraft: Java Edition. Sunlight streams through offscreen colored glass to cast colored shadow on the floor. This is the same effect you get in the real world with colored glass"/>
                             </a>
                         </div>
                         <div class="panel-footer">
@@ -112,7 +112,7 @@
                     <div class="panel panel-default">
                         <div class="panel-body">
                             <a href="../img/ibl-full.png">
-                                <img class="img-responsive" src="../img/ibl-small.png" />
+                                <img class="img-responsive" src="../img/ibl-small.png" alt="Four images of Minecraft: Java Edition. The images show the same scene from the same viewpoint at different times of day. These images illustrate how the DRAGON shaderpack responds to changes in time of day. The differences in shadows and ambient lighting that you'd get in the real world are clearly visible on a large stone cube sitting on a gold floor"/>
                             </a>
                         </div>
                         <div class="panel-footer">
@@ -128,7 +128,7 @@
                     <div class="panel panel-default">
                         <div class="panel-body">
                             <a href="../img/raytraced_light_full.png">
-                                <img class="img-responsive" src="../img/raytraced_light_small.png" />
+                                <img class="img-responsive" src="../img/raytraced_light_small.png" alt="An image of the game Minecraft: Java Edition. A stone block floats above an underground pool of lava. The light from the lava illuminates the walls and ceiling of the cave, except for the shadow cast by the floating block. This is not possible in vanilla Minecraft. It was accomplished with the DRAGON shaderpack's screen-space raytraced light"/>
                             </a>
                         </div>
                         <div class="panel-footer">
@@ -155,7 +155,7 @@
                     <div class="panel panel-default">
                         <div class="panel-body">
                             <a href="../img/skybox-full.png">
-                                <img class="img-responsive" src="../img/skybox-small.png" />
+                                <img class="img-responsive" src="../img/skybox-small.png" alt="Three images of just the sky, as rendered by the DRAGON shaderpack. The images illustrate the atmospheric scattering algorithms present in DRAGON. The sky is a nice bright blue at noon, darker with a slight amount of blue at sunset, and completely dark at night. In all three images the sky is brighter near the horizon and near the sun, just like in the real world"/>
                             </a>
                         </div>
                         <div class="panel-footer">

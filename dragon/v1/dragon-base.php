@@ -1,7 +1,7 @@
 <?php
 $indexClass = "inactive";
 $overviewClass = "inactive";
-$downloadClass = "inactice";
+$downloadClass = "inactive";
 $textureClass = "inactive";
 
 if( $drPage == "index" ) {
